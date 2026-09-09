@@ -1,21 +1,46 @@
-MIT License
+iSDAGE Non-Commercial License
 
-Copyright (c) 2026 Mei
+Copyright (c) 2026 iSDAGE
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This repository and its contents, including but not limited to code,
+designs, visual assets, and creative works, are provided for learning,
+personal use, and other non-commercial purposes.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You are free to:
+- Download and study the materials.
+- Modify and experiment with them.
+- Use them in personal, educational, and non-commercial projects.
+- Share or redistribute them for non-commercial purposes.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Under the following conditions:
+- Commercial use is NOT permitted without prior written permission.
+- When sharing, redistributing, or publishing materials derived from
+  this repository, you must give appropriate credit to iSDAGE and
+  include a link to the original repository.
+- You may not sell, sublicense, or commercially redistribute the
+  original or modified materials.
+
+For commercial licensing or other permissions, please contact the author.
+
+---
+
+中文说明
+
+© 2026 iSDAGE
+
+本仓库中的代码、设计、视觉素材及其他创作内容，仅授权用于
+个人学习、研究、教育及其他非商业用途。
+
+你可以：
+- 免费下载和学习；
+- 修改、实验及进行二次创作；
+- 用于个人、教育及其他非商业项目；
+- 在非商业用途下转载或分享。
+
+但需要遵守：
+- 未经作者书面许可，不得用于任何商业用途；
+- 转载、分享或公开基于本项目制作的内容时，请注明作者 iSDAGE，
+  并附上原 GitHub 仓库地址；
+- 不得出售、转售或以其他方式商业化分发本仓库的原始或修改内容。
+
+如需商业使用，请事先联系作者获得授权。

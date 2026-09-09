@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+  />
+  <title>缝合照片</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #ffffff;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+        "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      user-select: none;
+      touch-action: none;
+      padding-top: var(--safe-area-inset-top, env(safe-area-inset-top, 0px));
+      padding-bottom: var(--safe-area-inset-bottom, env(safe-area-inset-bottom, 0px));
+      padding-left: var(--safe-area-inset-left, env(safe-area-inset-left, 0px));
+      padding-right: var(--safe-area-inset-right, env(safe-area-inset-right, 0px));
+    }
+
+    .stage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100%;
+      gap: 14px;
+    }
+
+    canvas {
+      display: block;
+      width: min(94vw, 67svh);
+      height: auto;
+      max-height: calc(100svh - 76px);
+      background: #ffffff;
+      touch-action: none;
+    }
+
+    .caption {
+      width: min(88vw, 520px);
+      color: rgba(68, 58, 50, 0.48);
+      font-size: 12px;
+      line-height: 1.65;
+      letter-spacing: 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <main class="stage" aria-label="缝合照片互动工具">
+    <canvas id="stitchCanvas" width="600" height="800"></canvas>
+    <p class="caption">我们曾被撕毁的回忆，<br />是否还可以重新缝补？</p>
+  </main>
+  <script src="./main.js"></script>
+</body>
+</html>
